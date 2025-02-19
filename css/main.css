@@ -1,0 +1,338 @@
+/*--- PAGINA COMPLETA */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle, #103d21 5%, #0e2416 25%);
+    background-size: 200% 200%;
+}
+
+:root {
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+    /* fix for Chrome */
+}
+
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: InterVariable, sans-serif;
+    }
+}
+
+/*Estilo de letra*/
+.fuente {
+    font-family: Inter;
+    color: #63b87e;
+}
+
+/*----- NOMBRE Y OCUPACION */
+.nombre {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    color: white;
+}
+
+.puesto {
+    font-size: 25px;
+    /* font-weight: bold; */
+    /* margin-left: 10px; */
+}
+
+/*----- MENU -----*/
+.nav {
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.nav-texto {
+    margin-bottom: 5px;
+    display: inline-block;
+    transition: transform 0.5s ease-in-out;
+}
+
+.nav-texto:hover {
+    color: #63b87e;
+    transition: color 0.3s;
+    transform: scale(1.2);
+}
+
+.nav-texto:active {
+    color: #63b87e;
+    transition: color 0.3s;
+    transform: scale(1.2);
+}
+
+nav ul li a.active {
+    color: #ff0000;
+    /* Cambia el color del texto */
+    font-weight: bold;
+    /* Hace el texto más grueso */
+    background-color: #f0f0f0;
+    /* Cambia el fondo */
+    border-bottom: 2px solid #ff0000;
+    /* Subrayado */
+}
+
+/*----- HIPERVINCULOS -----*/
+.svg {
+    fill: #ffffff;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.svg:hover {
+    fill: #63b87e;
+}
+
+/*----- CONTENIDO -----*/
+/* Personalizar la barra de desplazamiento en Firefox */
+* {
+    scrollbar-width: thin;
+    /* Delgada */
+    scrollbar-color: #3f885b #103d21;
+    /* Color del pulgar y de la pista */
+}
+
+.titulo {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Sobre mi */
+
+.tsm {
+    display: none;
+}
+
+p {
+    font-size: 25x;
+    margin-bottom: 25px;
+}
+
+p b {
+    color: white;
+}
+
+.seccion {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+/*Experiencia*/
+.contenedor-exp-proyec {
+    margin-bottom: 15px;
+}
+
+.exp-fechas {
+    font-size: 13px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.exp-puesto-sistema {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    margin: 10px 10px 10px 10px;
+}
+
+.exp-descripcion {
+    font-size: 13px;
+    margin: 0px 10px 10px 10px;
+}
+
+.exp-cont-tecnologia {
+    margin: 10px 10px 10px 10px;
+}
+
+.exp-tecnologia {
+    color: #4db983;
+    background-color: #112a38;
+    margin-left: 5px;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.contenedor-exp-proyec:hover {
+    background-color: #1a2d2a91;
+    border-radius: 10px;
+    transition: background-color 0.2s;
+
+    .exp-puesto-sistema {
+        color: #4db983;
+        transition: color 0.2s;
+    }
+
+    .proy-img {
+        border-style: groove;
+        transition: border 0.2s;
+    }
+}
+
+/* Proyectos */
+.proy-img {
+    width: 100%;
+    /* margin: 20px 10px 10px 20px; */
+    /* margin: 0 auto; */
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+
+}
+
+.cont-img {
+    /* justify-content: center; Centrar horizontalmente */
+    align-items: start;
+    /* Centrar verticalmente */
+    /* background-color: red; */
+    height: 100%;
+}
+
+.footer {
+    font-size: 12px;
+    text-align: left;
+}
+
+
+@media (max-width: 480px) { /* Estilos específicos para teléfonos pequeños */
+    body {
+        font-size: 14px;
+        background: #0e2416;
+    }
+    
+    .contenedor-principal {
+        flex-direction: column !important;
+        padding-top: 0% !important;
+    }
+
+    .contenedor-izquierda {
+        position: static !important;
+        top:auto;
+        width: 100% !important;
+    }
+
+    .datos {
+        margin-left: 10px !important;
+    }
+
+    .nombre {
+        font-size: 40px !important;
+        margin-bottom: 0px;
+    }
+
+    .puesto {
+        font-size: 20px !important;
+
+    }
+
+    .nav {
+        font-size: 16px !important;
+        display:none;
+    }
+
+    .contenedor-menu {
+        display: none !important;
+    }
+
+    .contenedor-hipervinculos{
+        justify-content: left !important;
+        margin-left: 10px;
+    }
+
+    .contenedor-derecha {
+        flex-direction: column !important;
+        width: auto !important; 
+        display: block !important;
+    }
+
+    .tsm {
+        display:block;
+        padding: 10px 0 10px 0px;
+        position:sticky !important;
+        top: 0 !important;
+        background-color: #0e2416;
+    }
+
+    .sobre-mi {
+        font-size: 18px;
+    }
+
+    .seccion {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .contenedor-exp-proyec {
+        flex-direction: column-reverse !important;
+        padding-top: 0% !important;
+    }
+
+    .contenedor-izquierda-exp-proyec {
+        width: 100% !important;
+    }
+
+    .contenedor-derecha-exp-proyec {
+        width: 100% !important;
+    }
+
+    .exp-fechas {
+        margin-bottom: 0px;
+    }
+
+    .exp-puesto-sistema {
+        margin-top: 0px;
+    }
+
+    .cont-img{
+        justify-content: center;
+    }
+
+    .proy-img {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) { /* Estilos para celulares grandes y tablets pequeñas */
+    body {
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) { /* Estilos para tablets y pantallas medianas */
+    body {
+        font-size: 14px;
+    }
+
+    .tsm {
+        display:inline;
+        padding-top: 15px;
+    }
+
+    .sobre-mi {
+        display:none;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) { /* Estilos para laptops y monitores pequeños */
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1201px){ /* Estilos para laptops y monitores pequeños */
+    /* Como fue desarrollada la página */
+}

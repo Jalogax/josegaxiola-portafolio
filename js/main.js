@@ -115,14 +115,10 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     // Cambiar idioma según selección
-    document.getElementById("idioma-ingles").addEventListener("click", function () {
-        setLanguage("en");
-    });
 
-    document.getElementById("idioma-espaniol").addEventListener("click", function () {
-        setLanguage("es");
+    document.getElementById("selector-idioma").addEventListener("change", function(event) {
+        setLanguage(event.target.value);
     });
-
     function setLanguage(lang) {
         document.getElementById("titulo").innerText = translations[lang].titulo;
         document.getElementById("profesion").innerText = translations[lang].profesion;

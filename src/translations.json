@@ -1,0 +1,109 @@
+{
+    "es": {
+        "titulo": "José Gaxiola - Portafolio",
+        "profesion": "Ingeniero de Software",
+        "idioma_ingles": "Inglés",
+        "idioma_espaniol": "Español",
+        "menu_sobre_mi": "Sobre mí",
+        "menu_experiencia": "Experiencia",
+        "menu_proyectos": "Proyectos",
+        "sobremi_titulo": "Sobre mí",
+        "sobremi_contenido_1": "<b>¡Hola, bienvenido!</b> Es un placer tenerte aquí. Soy un <b>desarrollador de software</b> apasionado por la tecnología, con experiencia en el desarrollo web para una de las empresas más grandes e importantes de México.",
+        "sobremi_contenido_2": "Mi último puesto fue como <b>Arquitecto de Software</b>, donde lideré un equipo de desarrollo en proyectos implementados a nivel nacional. Contribuí en el diseño, desarrollo y liberación de soluciones de software óptimas para los sistemas involucrados. También trabajé como <b>Programador</b> enfocado en tecnologías web y como <b>Analista de requerimientos</b>.",
+        "sobremi_contenido_3": "A lo largo de mi carrera, me he destacado por una gestión eficiente de los proyectos y por ofrecer soluciones correctas y de calidad, apoyando a todo el equipo en lo necesario para cumplir con los objetivos de manera responsable y efectiva.",
+        "sobremi_contenido_4": "En mi tiempo libre, disfruto jugar videojuegos con amigos, entrenar, ver series y películas, y leer libros, así como viajar, que es una de mis pasiones.",
+        "sobremi_contenido_5": "Actualmente, busco una nueva oportunidad laboral llena de retos y aprendizaje, donde pueda aplicar todos mis conocimientos y seguir creciendo tanto personal como profesionalmente. <b>¡Te invito a seguir leyendo para que me conozcas mejor!</b>",
+        "experiencia_titulo": "Experiencia",
+        "experiencia": [
+            {
+                "fecha": "Noviembre de 2023 - Enero de 2025",
+                "puesto": "Arquitecto de Software - Afore Coppel",
+                "descripcion": "Definir soluciones técnicas basadas en las necesidades del usuario, desarrollar sistemas, realizar análisis de impacto, modelar y diseñar arquitecturas de software, atender vulnerabilidades e incidencias."
+            },
+            {
+                "fecha": "Octubre de 2021 - Noviembre de 2023",
+                "puesto": "Programador - Afore Coppel",
+                "descripcion": "Analizar requerimientos funcionales y no funcionales, estimar tiempos de desarrollo, crear componentes de software, generar pruebas unitarias, resolver vulnerabilidades y versionar aplicaciones."
+            },
+            {
+                "fecha": "Octubre de 2020 - Octubre de 2021",
+                "puesto": "Analista de requerimientos - Afore Coppel",
+                "descripcion": "Atender a usuarios/clientes. Definir reglas de negocio, requerimientos funcionales y no funcionales. Generar contratos y documentación de sistemas como casos de uso, diagramas de integración de sistemas y manuales de usuario."
+            }
+        ],
+        "proyectos_titulo": "Proyectos",
+        "proyectos": [
+            {
+                "nombre": "Simulador de pensión para el retiro",
+                "descripcion": "Página web donde los usuarios pueden realizar una simulación de su pensión para conocer estrategias que le permitan mejorar su fondo de retiro. Se le agregaron ciertas modificaciones a la interfaz para pedir más datos de los usuarios, así como su cálculo."
+            },
+            {
+                "nombre": "Sistema de envíos de correos",
+                "descripcion": "Sistema automatizado que realiza el envío de correos electrónicos cada vez que el usuario lo requiera mediante la consulta de una lista de correos emisores."
+            },
+            {
+                "nombre": "Punto de venta para Barber Shop",
+                "descripcion": "Software a la medida. Sistema de punto de venta para una barbería en el cual se registran las ventas, citas, clientes, empleados, así como la generación de reportes útiles para la empresa."
+            },
+            {
+                "nombre": "Página Web de Purificadora de Agua Géminis",
+                "descripcion": "Página web donde se muestra información respecto a esta empresa, como su misión, valores, productos, precios, ubicación y un apartado de contacto."
+            }
+        ],
+        "pie_pagina" : "2025. Las tecnologías utilizadas fueron HTML, CSS y JavaScript. Codificada en Visual Studio Code. Desplegada con Netlify. Página web creada por José Gaxiola, inspirado en el diseño de <b><a class='text-decoration-none text-reset' target='_blank' href='https://brittanychiang.com/'>Brittany Chiang</a></b>."
+    },
+    "en": {
+        "titulo": "José Gaxiola - Portfolio",
+        "profesion": "Software Engineer",
+        "idioma_ingles": "English",
+        "idioma_espaniol": "Spanish",
+        "menu_sobre_mi": "About Me",
+        "menu_experiencia": "Experience",
+        "menu_proyectos": "Projects",
+        "sobremi_titulo": "About Me",
+        "sobremi_contenido_1": "<b>Hello, welcome!</b> It's a pleasure to have you here. I am a <b>software developer</b> passionate about technology, with experience in web development for one of the largest and most important companies in Mexico.",
+        "sobremi_contenido_2": "My last position was as a <b>Software Architect</b>, where I led a development team on projects implemented nationwide. I contributed to the design, development, and release of optimal software solutions for the involved systems. I also worked as a <b>Programmer</b> focused on web technologies and as a <b>Requirements Analyst</b>.",
+        "sobremi_contenido_3": "Throughout my career, I have stood out for efficient project management and for providing correct and high-quality solutions, supporting the entire team as needed to achieve objectives responsibly and effectively.",
+        "sobremi_contenido_4": "In my free time, I enjoy playing video games with friends, working out, watching series and movies, and reading books, as well as traveling, which is one of my passions.", 
+        "sobremi_contenido_5": "I am currently looking for a new job opportunity full of challenges and learning, where I can apply all my knowledge and continue growing both personally and professionally. <b>I invite you to keep reading to get to know me better!</b>",
+        "experiencia_titulo": "Experience",
+        "experiencia": [
+            {
+                "fecha": "November 2023 - January 2025",
+                "puesto": "Software Architect - Afore Coppel",
+                "descripcion": "Define technical solutions based on user needs, develop systems, conduct impact analysis, model and design software architectures, address vulnerabilities and incidents."
+            },
+            {
+                "fecha": "October 2021 - November 2023",
+                "puesto": "Programmer - Afore Coppel",
+                "descripcion": "Analyze functional and non-functional requirements, estimate development times, create software components, generate unit tests, resolve vulnerabilities, and version applications."
+            },
+            {
+                "fecha": "October 2020 - October 2021",
+                "puesto": "Requirements Analyst - Afore Coppel",
+                "descripcion": "Assist users/clients. Define business rules, functional and non-functional requirements. Generate contracts and system documentation such as use cases, system integration diagrams, and user manuals."
+            }
+        ],
+        "proyectos_titulo": "Projects",
+        "proyectos": [
+            {
+                "nombre": "Retirement Pension Simulator",
+                "descripcion": "A web page where users can simulate their pension to discover strategies to improve their retirement fund. Certain modifications were added to the interface to request more user data, as well as its calculation."
+            },
+            {
+                "nombre": "Email Sending System",
+                "descripcion": "An automated system that sends emails whenever the user requires it by querying a list of sender emails."
+            },
+            {
+                "nombre": "Point of Sale for Barber Shop",
+                "descripcion": "Custom software. A point-of-sale system for a barbershop where sales, appointments, customers, employees, and useful reports for the business are recorded."
+            },
+            {
+                "nombre": "Geminis Water Purification Website",
+                "descripcion": "A website that provides information about this company, such as its mission, values, products, prices, location, and a contact section."
+            }
+        ],
+        "pie_pagina": "2025. The technologies used were HTML, CSS, and JavaScript. Coded in Visual Studio Code. Deployed with Netlify. Website created by José Gaxiola, inspired by the design of <b><a class='text-decoration-none text-reset' target='_blank' href='https://brittanychiang.com/'>Brittany Chiang</a></b>."
+
+    }
+}
